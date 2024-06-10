@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../imagens/hp-capa.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+:root {
+    --hufflepuff-yellow: #FFDB00;
+    --hufflepuff-black: #000000;
+    --branco: #fff;
+}
+
+#cabecalho #menu a:hover {
+    background-color: var(--hufflepuff-yellow);
+    color: var(--hufflepuff-black);
+}
+
+h1:hover {
+    color: var(--hufflepuff-yellow);
+}
+
+h2 {
+    color: var(--branco);
+    text-align: center;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: 40px 0 20px 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 20px;
+    border: solid #FFDB00;
+}
+
+main {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    border: solid #FFDB00;
+}
+
+
+.personagem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.personagem img {
+    width: 250px;
+}
+
+.personagem p {
+    color: var(--branco);
+    font-size: 28px;
+}

@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-sonserina-verde: #1A472A;
+    /* Verde da Sonserina */
+    --cor-sonserina-prata: #AAAAAA;
+    /* Prata da Sonserina */
+    --cor-corvinal-azul: #222299;
+    --cor-corvinal-prata: #C0C0C0;
+    --color-03: #fff;
+    --cor-gryffindor-vermelho: #740001;
+    --cor-gryffindor-dourado: #D3A625; /* Dourado da Grifinória */
+    --hufflepuff-yellow: #FFDB00;
+    --hufflepuff-black: #000000;
+}
+
+body {
+    background-image: url(../imagens/quatro_casas.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1:hover {
+    color: var(--cor-corvinal-azul);
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-03);
+    font-size: 55px;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    border: solid var(--cor-corvinal-azul) 4px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container button {
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease;  
+}
+
+.container #container-casas {
+    display: flex;
+    gap: 70px;
+}
+
+.container #teste {
+    background: linear-gradient(90deg, rgb(89, 72, 159), rgb(70, 60, 157) 48.96%, rgb(70, 74, 178));
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container #teste:hover {
+    background: linear-gradient(to right, #AAAAAA, rgb(70, 74, 178), #222299); /* Novo gradiente linear para hover */
+    transform: scale(0.95);
+    
+}
+
+.container #gryffindor {
+    margin-bottom: 40px;
+}
+
+.container #gryffindor:hover {
+    transform: scale(0.9);
+}
+
+.container #gryffindor button {
+    border-color: var(--cor-gryffindor-dourado);
+    background-color: var(--cor-gryffindor-vermelho);
+    color: var(--cor-gryffindor-dourado);
+}
+
+.container #hufflepuff {
+    margin-bottom: 40px;
+}
+
+.container #hufflepuff:hover {
+    transform: scale(0.9);
+}
+
+.container #hufflepuff button {
+    border-color: var(--hufflepuff-black);
+    background-color: var(--hufflepuff-yellow);
+    color: var(--hufflepuff-black);
+}
+
+.container #ravenclaw {
+    margin-bottom: 40px;
+}
+
+.container #ravenclaw:hover {
+    transform: scale(0.9);
+}
+
+.container #ravenclaw button {
+    border-color: var(--cor-corvinal-prata);
+    background-color: var(--cor-corvinal-azul);
+    color: var(--cor-corvinal-prata);
+}
+
+.container #slytherin {
+    margin-bottom: 40px;
+}
+
+.container #slytherin:hover {
+    transform: scale(0.9);
+}
+
+.container #slytherin button {
+    border-color: var(--cor-sonserina-prata);
+    background-color: var(--cor-sonserina-verde);
+    color: var(--cor-sonserina-prata);
+}
+
+#cabecalho #menu a:hover {
+    color: #C0C0C0;
+    background-color: #222299;
+    
+}

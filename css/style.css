@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+:root {
+    --cor-sonserina-verde: #1A472A;
+    /* Verde da Sonserina */
+    --cor-sonserina-prata: #AAAAAA;
+    /* Prata da Sonserina */
+    --color-01: #06C;
+    --color-02: #000;
+    --color-03: #fff;
+    --color-04: rgb(19, 53, 19);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/** apaguei um bglh aq**/
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#cabecalho {
+    background-color: var(--color-02);
+    margin-bottom: 5px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+#cabecalho #logo {
+    width: 40px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #menu a {
+    color: var(--color-03);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+/* #cabecalho #menu a:hover {
+    background-color: #740001;
+    color: #D3A625;
+    /*Dourado da Grifinória } */
+
+
+#cabecalho #menu li {
+    list-style: none;
+}
+
+#cabecalho #menu li .submenu {
+    display: none;
+    position: absolute;
+    background-color: var(--color-02);
+}
+
+#cabecalho #menu li:hover .submenu {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h1 {
+    font-style: italic;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#rodape {
+    background-color: var(--color-02);
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    color: #FFF;
+}
+
+#rodape a {
+
+    color: #FFF;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    color: var(--cor-sonserina-verde);
+    text-decoration: underline;
+}

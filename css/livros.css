@@ -1,0 +1,92 @@
+body {
+    background-image: url(../imagens/WallpaperDog-326055.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+:root {
+    --color-01: #06C;
+    --color-02: #000;
+    --color-03: #fff;
+    --color-04: rgb(19, 53, 19);
+}
+
+h1:hover {
+    color: #740001;
+}
+
+#sub h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.9);
+    font-size: 55px;
+    text-align: center;
+    color: var(--color-03);
+    border: solid #740001;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /**gap: 50px;**/
+}
+
+main .card {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.9);
+    border: solid #740001;
+    border-radius: 50px;
+    margin: 40px;
+    transition: transform 0.3s ease;
+
+}
+
+main .card:hover{
+    transform: scale(1.2);
+}
+
+main .card img {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 125px;
+}
+
+main .card h2 {
+    color: var(--color-03);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: italic;
+    text-align: center;
+}
+
+main .card p {
+    color: var(--color-03);
+    margin: 10px;
+}
+
+
+
+main  a {
+    color: #b91a1c;
+}
+main a:hover {
+    background-color: #740001;
+            color: #D3A625; /* Dourado da Grifinória */
+}
+
+#cabecalho #menu a:hover {
+    background-color: #740001;
+    color: #D3A625;
+    /*Dourado da Grifinória  */
+}
